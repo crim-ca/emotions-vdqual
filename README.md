@@ -30,7 +30,6 @@ Voir le fichier [LICENCE](LICENSE) pour plus de détails.
 
 Veuillez voir également les requis de [Citation](#Citation).
 <br><br>
-***
 
 ## Introduction 
 **VDQUAL-emotions.**
@@ -43,7 +42,6 @@ L'une des fonctionnalités de l'outil est la détection d'émotions dans des vid
 en distinguant les états émotifs des actions émotives. Les fichiers de ce répertoire concernent 
 cette fonctionnalité.
 <br><br>
-***
 
 ## Utilisation de Span-Aste
 
@@ -64,7 +62,6 @@ Nous fournissons les données annotées en français (en deux formats : JSON et 
 
 Nous vous référons au code de Span-Aste si vous vouliez réentrainer le modèle.
 <br><br>
-***
 ## Données annotées pour la détection d'émotions en français
 
 Les données annotées sont en format JSON et en format TXT (ce dernier format est celui utilisé par Span-Aste).
@@ -81,9 +78,8 @@ Deux annotatrices se sont répartis l'annotation des fichiers. Un petit ensemble
 L'accord inter-annotateur est le suivant : 
  - accord sur la détection d'une expression émotive (un chevauchement est considéré comme positif): f1 score de 0.829466
  - accord sur la modalité de l'émotion : Kappa de Cohen de 0.880149.
-<br>
-<br>
-***
+<br><br>
+
 ## Description des fichiers
 Le répertoire contant données et modèle est disponible [ici](https://drive.google.com/drive/folders/16y-YCS2aLRZ5Dg9zIs3mRCPsmQYOvWml). 
 Il faut faire une demande d'accès pour accéder aux fichiers décrits ci-dessous.
@@ -99,7 +95,7 @@ Pour cela, nous avons utilisé le script `transform_json_to_txt.py`.
 
 4.  Le modèle entrainé en utilisant le code de Span_aste est disponible ici : `model.tar.gz`.
 <br><br>
-***
+
 ## Contributeurs et remerciements
 
 Le projet a reçu un financement du Fonds d'accessibilité à la radiodiffusion([FAR]((https://www.baf-far.ca/fr))).
@@ -110,7 +106,7 @@ L'entraînement du modèle se fait grâce à l'article
 [Learning Span-Level Interactions for Aspect Sentiment Triplet Extraction](https://aclanthology.org/2021.acl-long.367)
 de Xu et al., ACL-IJCNLP 2021. Le code est disponible ici : https://github.com/chiayewken/Span-ASTE.
 <br><br>
-***
+
 ## Références
 
 **VDQUAL-emotions : Jeu de données et modèle pour la détection d'émotions dans des vidéodescriptions en français.**

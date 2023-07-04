@@ -11,7 +11,6 @@
 - [References](#references)
   - [Citation](#citation)
 
-***
 
 ## License
 
@@ -32,7 +31,6 @@ See the [LICENSE](LICENSE) file for more details.
 
 See also the [Citation](#Citation) requirements.
 <br><br>
-***
 
 ## Introduction
 
@@ -45,7 +43,6 @@ One of the features of the tool is the detection of emotions in French video des
 distinguishing emotional states from emotional actions. The files in this directory  concern
 this feature.
 <br><br>
-***
 
 ## Using Span-Aste
 
@@ -66,7 +63,6 @@ of our model. We also provide the model we trained on this data.
 The directory containing the data and the model is available at:
 We refer you to the Span-Aste code if you want to retrain the model.
 <br><br>
-***
 
 ## Annotated data for emotion detection in french
 
@@ -85,7 +81,6 @@ The inter-annotator agreement is as follows:
   - agreement on the detection of an emotive expression (an overlap is considered positive): f1 score of 0.829466
   - agreement on the modality of the emotion: Cohen's Kappa of 0.880149.
 <br><br>
-***
 
 ## Description of files
 The directory with data and template is available [here]
@@ -104,7 +99,6 @@ For this, we used the `transform_json_to_txt.py` script.
 
 4. The model trained using the code from Span_aste is available here: `model.tar.gz`.
 <br><br>
-***
 
 ## Contributors and Acknowledgments
 
@@ -117,7 +111,6 @@ The training of the model is done thanks to the article
 [Learning Span-Level Interactions for Aspect Sentiment Triplet Extraction](https://aclanthology.org/2021.acl-long.367)
 from Xu et al., ACL-IJCNLP 2021. The code is available here: https://github.com/chiayewken/Span-ASTE.
 <br><br>
-***
 
 ## References
 
