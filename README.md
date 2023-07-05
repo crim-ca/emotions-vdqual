@@ -81,7 +81,7 @@ L'accord inter-annotateur est le suivant :
 <br><br>
 
 ## Description des fichiers
-Le répertoire contant données et modèle est disponible [ici](https://drive.google.com/drive/folders/16y-YCS2aLRZ5Dg9zIs3mRCPsmQYOvWml). 
+Le répertoire contant données et modèle est disponible [ici](https://drive.google.com/drive/folders/1sLiYm2nzTi7_9cls_-Mn_CCwItdYTs3C). 
 Il faut faire une demande d'accès pour accéder aux fichiers décrits ci-dessous.
 
 1. Les fichiers sont annotés au format JSON. Ils sont disponibles dans le répertoire `data/gold_json.zip`

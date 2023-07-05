@@ -84,17 +84,17 @@ The inter-annotator agreement is as follows:
 
 ## Description of files
 The directory with data and template is available [here]
-(https://drive.google.com/drive/folders/16y-YCS2aLRZ5Dg9zIs3mRCPsmQYOvWml).
+(https://drive.google.com/drive/folders/1sLiYm2nzTi7_9cls_-Mn_CCwItdYTs3C).
 An access request must be made to access the files described below.
 
 1. Files are annotated in JSON format. They are available at the following address in the file 
 `data/gold_json.zip` and have been distributed in three directory (train, test and val).
 
-2. They must be transformed into TXT files to be used by Span-Aste.
+1. They must be transformed into TXT files to be used by Span-Aste.
 The expected format is a document with one sentence per line: `sentence#### #### ####[triplet_0, ..., triplet_n]`.
 For this, we used the `transform_json_to_txt.py` script.
 
-3. The transformed data is available here: `data/split_txt.zip`.
+1. The transformed data is available here: `data/split_txt.zip`.
 
 
 4. The model trained using the code from Span_aste is available here: `model.tar.gz`.
